@@ -30,7 +30,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">SADEK WHOP</div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#trading">Trading</a></li>
             <li><a href="#meme-coin">Meme Coin</a></li>
@@ -40,7 +40,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
+    <header id="home" class="hero">
         <h1>Master Trading & Explore Meme Coins</h1>
         <p>Your hub for trading strategies and exclusive insights.</p>
         <a href="https://www.youtube.com/@SadekWhop" target="_blank" class="cta-button">Watch on YouTube</a>
@@ -72,7 +72,7 @@
     <!-- JavaScript -->
     <script>
         function toggleMenu() {
-            document.querySelector('.nav-links').classList.toggle('active');
+            document.getElementById('nav-links').classList.toggle('active');
         }
     </script>
 </body>
